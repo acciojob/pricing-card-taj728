@@ -1,1 +1,32 @@
-/*  your css code here. If applicable */
+*{
+	margin:0;
+	padding:0;
+}
+img{
+	width:300px;
+}
+.flex-container{
+	display:flex;
+	flex-direction:column;
+	padding:40px;
+	background-color:#f3f3f3;
+	width:300px;
+	gap:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+h1{
+	font-size:48px;
+}
+p{
+	font-size:24px;
+}
+
+button{
+	background-color:#ff5f5f;
+	font-size:24px;
+	align-self:center;
+	padding:15px;
+	border-radius:35px;
+	border:none;
+}
